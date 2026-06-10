@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="page-content" style="max-width: 100%;">
+    {{ .Content }}
+
+    {{ $pubs := sort hugo.Data.publications "year" "desc" }}
+    {{ $currentYear := 0 }}
+    {{ range $pubs }}
+      {{ if ne .year $currentYear }}
+        {{ $currentYear = .year }}
+        <h3 class="pub-year">{{ .year }}</h3>
+      {{ end }}
+      <div class="pub-item">
+        <span class="pub-title">{{ .title }}</span><br>
+        <span class="pub-authors">{{ .authors }}</span><br>
+        <span class="pub-venue">{{ .venue }}</span>
+        {{ with .doi }}{{ if ne . "" }} — <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}{{ end }}
+        {{ with .url }}{{ if ne . "" }} — <a href="{{ . }}" target="_blank" rel="noopener">PDF</a>{{ end }}{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,100 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-slides" aria-hidden="true">
+    <div class="slide" style="background-image:url('/images/hero/slider01.webp')"></div>
+    <div class="slide" style="background-image:url('/images/hero/slider02.webp')"></div>
+    <div class="slide" style="background-image:url('/images/hero/slider03.webp')"></div>
+    <div class="slide" style="background-image:url('/images/hero/slider04.webp')"></div>
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="container hero-content">
+    <p class="tagline">{{ site.Params.universityJa }} / {{ site.Params.university }}</p>
+    <h1 class="slogan">Play with TiP!</h1>
+    <p class="hero-labname">{{ .Title }}</p>
+    <p class="subtitle">{{ .Params.subtitle }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ if eq .Lang "ja" }}研究分野{{ else }}Research Areas{{ end }}</h2>
+    <div class="research-circles">
+      {{ range where (where site.RegularPages "Section" "research") "Lang" .Lang }}
+      <a href="{{ .Permalink }}" class="research-circle">
+        {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="285" height="285">{{ end }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $about := .Site.GetPage "/about" }}
+{{ if $about }}
+<section class="section section-alt">
+  <div class="container">
+    <div class="feature-band">
+      <div class="feature-image">
+        <img src="/images/lab-photo.webp" alt="{{ $about.Title }}" loading="lazy">
+      </div>
+      <div class="feature-text">
+        <p class="eyebrow">Laboratory</p>
+        <h2>{{ $about.Title }}</h2>
+        <p>{{ if eq .Lang "ja" }}TiP Labは2009年設立。自然言語処理を中核に、社会課題の解決に取り組む国際色豊かな研究室です。{{ else }}Founded in 2009, TiP Lab is an international research group tackling real-world problems with natural language processing at its core.{{ end }}</p>
+        <a href="{{ $about.Permalink }}" class="btn-gradient">{{ if eq .Lang "ja" }}研究室について →{{ else }}About the lab →{{ end }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ $intl := .Site.GetPage "/international" }}
+{{ if $intl }}
+<section class="section">
+  <div class="container">
+    <div class="feature-band feature-band-reverse">
+      <div class="feature-image">
+        <img src="/images/international.webp" alt="{{ $intl.Title }}" loading="lazy">
+      </div>
+      <div class="feature-text">
+        <p class="eyebrow">International Students</p>
+        <h2>{{ $intl.Title }}</h2>
+        <p>{{ if eq .Lang "ja" }}これまで10カ国以上から学生が在籍。日本語と英語の両方で研究生活を送れる国際的な環境です。{{ else }}Students from more than 10 countries have joined the lab. Daily research life runs in both English and Japanese.{{ end }}</p>
+        <a href="{{ $intl.Permalink }}" class="btn-gradient">{{ if eq .Lang "ja" }}詳しく見る →{{ else }}Learn more →{{ end }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with hugo.Data.highlights }}
+<section class="section-alt">
+  <div class="container">
+    <div class="highlights">
+      {{ range . }}
+      <div class="highlight-item">
+        <div class="number">{{ .number }}</div>
+        <div class="label">{{ if eq $.Lang "ja" }}{{ .label_ja }}{{ else }}{{ .label_en }}{{ end }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ if eq .Lang "ja" }}最新ニュース{{ else }}Recent News{{ end }}</h2>
+    {{ range first 5 (where (where site.RegularPages "Section" "news") "Lang" .Lang) }}
+    <div class="news-item">
+      <span class="news-date">{{ .Date.Format "2006.01.02" }}</span>
+      <a href="{{ .Permalink }}" class="news-title">{{ .Title }}</a>
+    </div>
+    {{ end }}
+    <p style="margin-top: 20px;">
+      <a href="{{ if eq .Lang "ja" }}/news/{{ else }}/en/news/{{ end }}">{{ if eq .Lang "ja" }}ニュース一覧 →{{ else }}All news →{{ end }}</a>
+    </p>
+  </div>
+</section>
+{{ end }}

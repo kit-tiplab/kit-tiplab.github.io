@@ -1,0 +1,13 @@
+# Homepage statistics — update these periodically
+- number: "15+"
+  label_ja: "研究活動年数"
+  label_en: "Years of Research"
+- number: "200+"
+  label_ja: "学術論文"
+  label_en: "Publications"
+- number: "10+"
+  label_ja: "出身国数"
+  label_en: "Countries Represented"
+- number: "30+"
+  label_ja: "h-index"
+  label_en: "h-index"

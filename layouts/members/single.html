@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+  <div class="profile">
+    <p class="back-link"><a href="{{ with .Parent }}{{ .Permalink }}{{ else }}{{ "members/" | relLangURL }}{{ end }}">← {{ if eq .Lang "ja" }}メンバー一覧へ{{ else }}Back to Members{{ end }}</a></p>
+
+    <div class="profile-header">
+      <div class="profile-photo">
+        {{ if .Params.photo }}
+        <img src="/images/members/{{ .Params.photo }}" alt="{{ .Title }}">
+        {{ else }}
+        <div class="profile-placeholder">{{ substr .Title 0 1 }}</div>
+        {{ end }}
+      </div>
+      <div class="profile-meta">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.role }}<p class="profile-role">{{ . }}</p>{{ end }}
+        <p class="profile-sub">
+          {{ with .Params.advisor }}<span>{{ if eq $.Lang "ja" }}指導教員：{{ else }}Advisor: {{ end }}{{ . }}</span>{{ end }}
+          {{ with .Params.note }}<span class="tag">{{ . }}</span>{{ end }}
+        </p>
+      </div>
+    </div>
+
+    <div class="page-content profile-content">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}

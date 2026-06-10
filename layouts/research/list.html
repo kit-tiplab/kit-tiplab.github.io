@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="page-content" style="max-width: 100%;">
+    {{ .Content }}
+    <div class="research-circles" style="margin-top: 32px;">
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="research-circle">
+        {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="285" height="285">{{ end }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

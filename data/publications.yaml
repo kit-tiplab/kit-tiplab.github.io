@@ -1,0 +1,34 @@
+# ============================================
+# TiP Lab Publications
+# ============================================
+# Add new publications at the TOP of this file.
+# Format:
+#   - title: "Paper Title"
+#     authors: "Author1, Author2, Author3"
+#     venue: "Journal Name, Vol.X, No.Y, pp.ZZ-ZZ"
+#     year: 2026
+#     doi: "10.xxxx/xxxxx"          (optional)
+#     url: "/downloads/paper.pdf"   (optional)
+#     type: journal | conference | book | invited | patent | other
+# ============================================
+
+# --- 2026 ---
+
+- title: "(Example) Cyberbullying Detection in Low-Resource Languages: A Cross-Lingual Approach"
+  authors: "M. Ptaszynski, T. Mahmud, F. Masui, J. Eronen"
+  venue: "Example Journal, 2026"
+  year: 2026
+  type: journal
+  doi: ""
+
+# --- 2025 ---
+
+- title: "(Example) Add your actual publications here"
+  authors: "Author1, Author2"
+  venue: "Venue, 2025"
+  year: 2025
+  type: conference
+  doi: ""
+
+# Copy the block above and fill in for each publication.
+# The website will automatically group them by year (newest first).

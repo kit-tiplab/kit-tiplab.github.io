@@ -1,0 +1,89 @@
+baseURL = "https://tip.cs.kitami-it.ac.jp/"
+title = "TiP Lab"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+pagination.pagerSize = 20
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[languages]
+  [languages.ja]
+    label = "日本語"
+    weight = 1
+    contentDir = "content/ja"
+    [languages.ja.params]
+      description = "北見工業大学 テキスト情報処理研究室（TiP Lab）— 自然言語処理・有害情報検出・感情分析・観光情報学・カーリング情報学"
+    [[languages.ja.menus.main]]
+      name = "研究室紹介"
+      url = "/about/"
+      weight = 1
+    [[languages.ja.menus.main]]
+      name = "メンバー"
+      url = "/members/"
+      weight = 2
+    [[languages.ja.menus.main]]
+      name = "研究内容"
+      url = "/research/"
+      weight = 3
+    [[languages.ja.menus.main]]
+      name = "研究成果"
+      url = "/publications/"
+      weight = 4
+    [[languages.ja.menus.main]]
+      name = "留学生の方へ"
+      url = "/international/"
+      weight = 5
+    [[languages.ja.menus.main]]
+      name = "ニュース"
+      url = "/news/"
+      weight = 6
+    [[languages.ja.menus.main]]
+      name = "お問い合わせ"
+      url = "/contact/"
+      weight = 7
+
+  [languages.en]
+    label = "English"
+    weight = 2
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Text Information Processing Laboratory, Kitami Institute of Technology — NLP, Harmful Content Detection, Sentiment Analysis, Cross-lingual Transfer, Low-Resource Languages"
+    [[languages.en.menus.main]]
+      name = "About"
+      url = "/about/"
+      weight = 1
+    [[languages.en.menus.main]]
+      name = "Members"
+      url = "/members/"
+      weight = 2
+    [[languages.en.menus.main]]
+      name = "Research"
+      url = "/research/"
+      weight = 3
+    [[languages.en.menus.main]]
+      name = "Publications"
+      url = "/publications/"
+      weight = 4
+    [[languages.en.menus.main]]
+      name = "International Students"
+      url = "/international/"
+      weight = 5
+    [[languages.en.menus.main]]
+      name = "News"
+      url = "/news/"
+      weight = 6
+    [[languages.en.menus.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 7
+
+[params]
+  labName = "TiP Lab"
+  labNameFull = "Text Information Processing Laboratory"
+  university = "Kitami Institute of Technology"
+  universityJa = "北見工業大学"
+  address = "〒090-8507 北海道北見市公園町165 北見工業大学 1号棟4F・5F"
+  email = "tip-lab@cs.kitami-it.ac.jp"
+  twitter = "https://x.com/kit_tiplab"

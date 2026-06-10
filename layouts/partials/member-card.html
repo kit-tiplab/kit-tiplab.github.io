@@ -1,0 +1,22 @@
+{{- $m := .member }}{{ $lang := .lang }}{{ $ctx := .ctx -}}
+{{- $name := cond (eq $lang "ja") $m.name_ja $m.name_en -}}
+{{- $page := "" -}}
+{{- with $m.slug }}{{ $page = $ctx.Site.GetPage (printf "/members/%s" .) }}{{ end -}}
+{{- $role := "" -}}
+{{- if $m.role_ja }}{{ $role = cond (eq $lang "ja") $m.role_ja $m.role_en }}{{ else if $m.year }}{{ $role = $m.year }}{{ end -}}
+{{ if $page }}<a href="{{ $page.Permalink }}" class="member-card">{{ else }}<div class="member-card">{{ end }}
+  {{ if $m.photo }}
+  <img src="/images/members/{{ $m.photo }}" alt="{{ $name }}">
+  {{ else }}
+  <div class="member-placeholder">{{ substr $name 0 1 }}</div>
+  {{ end }}
+  <h3>{{ $name }}</h3>
+  {{ with $role }}<div class="role">{{ . }}</div>{{ end }}
+  {{ if $m.affiliation_ja }}
+  <div class="bio">{{ if eq $lang "ja" }}{{ $m.affiliation_ja }}{{ else }}{{ $m.affiliation_en }}{{ end }}</div>
+  {{ end }}
+  {{ if $m.advisor_ja }}
+  <div class="bio">{{ if eq $lang "ja" }}指導教員：{{ $m.advisor_ja }}{{ else }}Advisor: {{ $m.advisor_en }}{{ end }}</div>
+  {{ end }}
+  {{ if $m.note_ja }}<span class="tag" style="margin-top: 8px;">{{ if eq $lang "ja" }}{{ $m.note_ja }}{{ else }}{{ $m.note_en }}{{ end }}</span>{{ end }}
+{{ if $page }}</a>{{ else }}</div>{{ end }}

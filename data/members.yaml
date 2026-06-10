@@ -1,0 +1,358 @@
+# ============================================
+# TiP Lab Members  (roster: 2026 / lab_members.xlsx)
+# ============================================
+# - Set active: false when a member graduates.
+# - Photos go in static/images/members/ (filename in photo:)
+# - slug links the card to the member's profile page
+#   (content/ja/members/<slug>.md and content/en/members/<slug>.md)
+# - NOTE: some romanized readings of Japanese given names are
+#   best-effort guesses — please verify before publishing.
+# ============================================
+
+faculty:
+  - slug: "masui-fumito"
+    name_ja: "桝井 文人"
+    name_en: "Fumito Masui"
+    role_ja: "教授・冬季スポーツ科学研究推進センター長"
+    role_en: "Professor / Director, Winter Sports Science Research Center"
+    affiliation_ja: "北見工業大学 工学部 情報デザイン・コミュニケーション工学コース"
+    affiliation_en: "Faculty of Engineering, Information and Communication Systems, KIT"
+    photo: ""
+    scholar: ""
+    active: true
+
+  - slug: "ptaszynski-michal"
+    name_ja: "プタシンスキ ミハウ"
+    name_en: "Michal Ptaszynski"
+    role_ja: "教授"
+    role_en: "Professor"
+    affiliation_ja: "北見工業大学 工学部 情報デザイン・コミュニケーション工学コース"
+    affiliation_en: "Faculty of Engineering, Information and Communication Systems, KIT"
+    photo: ""
+    scholar: ""
+    active: true
+
+  - slug: "eronen-juuso"
+    name_ja: "エロネン ユーソ"
+    name_en: "Juuso Eronen"
+    role_ja: "准教授"
+    role_en: "Associate Professor"
+    affiliation_ja: "北見工業大学 工学部 情報デザイン・コミュニケーション工学コース"
+    affiliation_en: "Faculty of Engineering, Information and Communication Systems, KIT"
+    photo: ""
+    scholar: ""
+    active: true
+
+researchers:
+  - slug: "liu-zhenzhen"
+    name_ja: "Liu Zhenzhen"
+    name_en: "Liu Zhenzhen"
+    role_ja: "研究員"
+    role_en: "Researcher"
+    photo: ""
+    active: true
+
+doctoral:
+  - slug: "terachi-kaito"
+    name_ja: "寺地 海渡"
+    name_en: "Kaito Terachi"
+    year: "D2"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    note_ja: "社会人・長期履修"
+    note_en: "Working professional (extended program)"
+    photo: ""
+    active: true
+
+  - slug: "kawabe-yuya"
+    name_ja: "河邉 裕也"
+    name_en: "Yuya Kawabe"
+    year: "D2"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "wang-lu"
+    name_ja: "Wang Lu"
+    name_en: "Wang Lu"
+    year: "D2"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "lasek-kinga"
+    name_ja: "Kinga Lasek"
+    name_en: "Kinga Lasek"
+    year: "D2"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "nor-saiful-azam"
+    name_ja: "Nor Saiful Azam bin Nor Azami"
+    name_en: "Nor Saiful Azam bin Nor Azami"
+    year: "D2"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    note_ja: "秋入学"
+    note_en: "Autumn enrollment"
+    photo: ""
+    active: true
+
+  - slug: "overacker-lloyd"
+    name_ja: "Lloyd Nicholas Overacker"
+    name_en: "Lloyd Nicholas Overacker"
+    year: "D1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    note_ja: "秋入学"
+    note_en: "Autumn enrollment"
+    photo: ""
+    active: true
+
+  - slug: "mohd-razali-azhani"
+    name_ja: "Azhani binti Mohd Razali"
+    name_en: "Azhani binti Mohd Razali"
+    year: "D1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "kouassi-kouakou-kan-maxime"
+    name_ja: "Kouassi Kouakou Kan Maxime"
+    name_en: "Kouassi Kouakou Kan Maxime"
+    year: "D1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "hullathy-balakrishnan-barathi-ganesh"
+    name_ja: "Barathi Ganesh Hullathy Balakrishnan"
+    name_en: "Barathi Ganesh Hullathy Balakrishnan"
+    year: "D1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    note_ja: "秋入学"
+    note_en: "Autumn enrollment"
+    photo: ""
+    active: true
+
+masters:
+  - slug: "segawa-towa"
+    name_ja: "瀬川 都和"
+    name_en: "Towa Segawa"
+    year: "M2"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "zhang-yuechu"
+    name_ja: "張 月出"
+    name_en: "Zhang Yuechu"
+    year: "M2"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "fujimoto-daichi"
+    name_ja: "藤本 大地"
+    name_en: "Daichi Fujimoto"
+    year: "M2"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    note_ja: "休学中"
+    note_en: "On leave"
+    photo: ""
+    active: true
+
+  - slug: "ota-shotaro"
+    name_ja: "太田 将太郎"
+    name_en: "Shotaro Ota"
+    year: "M1"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "kyan-yasushi"
+    name_ja: "喜屋武 泰"
+    name_en: "Yasushi Kyan"
+    year: "M1"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "tadokoro-yuichi"
+    name_ja: "田所 優一"
+    name_en: "Yuichi Tadokoro"
+    year: "M1"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "gondesi-sampath-kumar-reddy"
+    name_ja: "Gondesi Sampath Kumar Reddy"
+    name_en: "Gondesi Sampath Kumar Reddy"
+    year: "M1"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "melendez-alvarado-diego-rene"
+    name_ja: "Diego Rene Melendez Alvarado"
+    name_en: "Diego Rene Melendez Alvarado"
+    year: "M1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "mori-yoshifumi"
+    name_ja: "森 慶文"
+    name_en: "Yoshifumi Mori"
+    year: "M1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "liang-qingxuan"
+    name_ja: "梁 箐轩（Wendy）"
+    name_en: "Liang Qingxuan (Wendy)"
+    year: "M1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "imai-ryota"
+    name_ja: "今井 涼太"
+    name_en: "Ryota Imai"
+    year: "M1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "miura-rin"
+    name_ja: "三浦 凜"
+    name_en: "Rin Miura"
+    year: "M1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "chowdhury-abu-nowhash"
+    name_ja: "Abu Nowhash Chowdhury"
+    name_en: "Abu Nowhash Chowdhury"
+    year: "M1"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+undergrad:
+  - slug: "okada-rika"
+    name_ja: "岡田 莉香"
+    name_en: "Rika Okada"
+    year: "B4"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "kanomata-shota"
+    name_ja: "鹿又 翔太"
+    name_en: "Shota Kanomata"
+    year: "B4"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "hikobe-tomoki"
+    name_ja: "彦部 朋毅"
+    name_en: "Tomoki Hikobe"
+    year: "B4"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "honda-nobuhito"
+    name_ja: "本多 信仁"
+    name_en: "Nobuhito Honda"
+    year: "B4"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    photo: ""
+    active: true
+
+  - slug: "maeda-takunori"
+    name_ja: "前田 拓紀"
+    name_en: "Takunori Maeda"
+    year: "B4"
+    advisor_ja: "桝井教授"
+    advisor_en: "Prof. Masui"
+    note_ja: "冬季スポーツ"
+    note_en: "Winter sports"
+    photo: ""
+    active: true
+
+  - slug: "saiki-kento"
+    name_ja: "齊木 健斗"
+    name_en: "Kento Saiki"
+    year: "B4"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "hanba-keigo"
+    name_ja: "半場 啓悟"
+    name_en: "Keigo Hanba"
+    year: "B4"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "rimarsa-haninnakhonsa-margono"
+    name_ja: "Rimarsa Haninnakhonsa Margono"
+    name_en: "Rimarsa Haninnakhonsa Margono"
+    year: "B4"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "watanabe-ryusei"
+    name_ja: "渡邊 瑠晟"
+    name_en: "Ryusei Watanabe"
+    year: "B4"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    photo: ""
+    active: true
+
+  - slug: "shibasaki-yuto"
+    name_ja: "柴崎 湧斗"
+    name_en: "Yuto Shibasaki"
+    year: "B4"
+    advisor_ja: "プタシンスキ教授"
+    advisor_en: "Prof. Ptaszynski"
+    note_ja: "5年生"
+    note_en: "5th year"
+    photo: ""
+    active: true

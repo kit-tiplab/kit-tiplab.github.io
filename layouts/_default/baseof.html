@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}TiP Lab | {{ site.Params.university }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:locale" content="{{ if eq .Lang "ja" }}ja_JP{{ else }}en_US{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="ja" href="{{ if .IsTranslated }}{{ range .Translations }}{{ if eq .Lang "ja" }}{{ .Permalink }}{{ end }}{{ end }}{{ else }}{{ .Permalink }}{{ end }}">
+  <link rel="alternate" hreflang="en" href="{{ if .IsTranslated }}{{ range .Translations }}{{ if eq .Lang "en" }}{{ .Permalink }}{{ end }}{{ end }}{{ else }}{{ .Permalink }}{{ end }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/brand/favicon-192.png">
+  <link rel="apple-touch-icon" href="/images/brand/favicon-192.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700&family=Poppins:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="page-content">
+    {{ .Content }}
+    {{ range .Pages }}
+    <div class="news-item">
+      <span class="news-date">{{ .Date.Format "2006.01.02" }}</span>
+      <a href="{{ .Permalink }}" class="news-title">{{ .Title }}</a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

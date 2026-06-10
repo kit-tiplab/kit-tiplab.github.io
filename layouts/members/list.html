@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $lang := .Lang }}
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="page-content" style="max-width: 100%;">
+    {{ .Content }}
+
+    <h2 class="section-title">{{ if eq $lang "ja" }}教員{{ else }}Faculty{{ end }}</h2>
+    <div class="member-grid">
+      {{ range where hugo.Data.members.faculty "active" true }}
+        {{ partial "member-card.html" (dict "member" . "lang" $lang "ctx" $) }}
+      {{ end }}
+    </div>
+
+    <h2 class="section-title" style="margin-top: 48px;">{{ if eq $lang "ja" }}研究員{{ else }}Researchers{{ end }}</h2>
+    <div class="member-grid">
+      {{ range where hugo.Data.members.researchers "active" true }}
+        {{ partial "member-card.html" (dict "member" . "lang" $lang "ctx" $) }}
+      {{ end }}
+    </div>
+
+    <h2 class="section-title" style="margin-top: 48px;">{{ if eq $lang "ja" }}博士課程{{ else }}Doctoral Students{{ end }}</h2>
+    <div class="member-grid">
+      {{ range where hugo.Data.members.doctoral "active" true }}
+        {{ partial "member-card.html" (dict "member" . "lang" $lang "ctx" $) }}
+      {{ end }}
+    </div>
+
+    <h2 class="section-title" style="margin-top: 48px;">{{ if eq $lang "ja" }}修士課程{{ else }}Master's Students{{ end }}</h2>
+    <div class="member-grid">
+      {{ range where hugo.Data.members.masters "active" true }}
+        {{ partial "member-card.html" (dict "member" . "lang" $lang "ctx" $) }}
+      {{ end }}
+    </div>
+
+    <h2 class="section-title" style="margin-top: 48px;">{{ if eq $lang "ja" }}学部生{{ else }}Undergraduate Students{{ end }}</h2>
+    <div class="member-grid">
+      {{ range where hugo.Data.members.undergrad "active" true }}
+        {{ partial "member-card.html" (dict "member" . "lang" $lang "ctx" $) }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

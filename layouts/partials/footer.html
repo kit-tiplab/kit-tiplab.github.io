@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>TiP Lab</h4>
+        <p>{{ if eq .Lang "ja" }}テキスト情報処理研究室{{ else }}Text Information Processing Laboratory{{ end }}</p>
+        <p style="margin-top: 8px;">{{ site.Params.universityJa }}<br>{{ site.Params.university }}</p>
+        <p style="margin-top: 8px; font-size: 0.82rem;">{{ site.Params.address }}</p>
+      </div>
+      <div class="footer-col">
+        <h4>{{ if eq .Lang "ja" }}ページ{{ else }}Pages{{ end }}</h4>
+        {{ range site.Menus.main }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+      <div class="footer-col">
+        <h4>{{ if eq .Lang "ja" }}リンク{{ else }}Links{{ end }}</h4>
+        <a href="https://www.kitami-it.ac.jp/" target="_blank" rel="noopener">{{ if eq .Lang "ja" }}北見工業大学{{ else }}Kitami Institute of Technology{{ end }}</a>
+        {{ with site.Params.twitter }}<a href="{{ . }}" target="_blank" rel="noopener">X (Twitter)</a>{{ end }}
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; {{ now.Year }} TiP Lab, {{ site.Params.university }}
+    </div>
+  </div>
+</footer>

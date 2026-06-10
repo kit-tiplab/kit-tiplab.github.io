@@ -1,0 +1,34 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ site.Home.Permalink }}" class="site-logo">
+      <img src="/images/brand/tip_logo-b.png" alt="TiPラボ" width="148" height="39">
+    </a>
+    <nav class="site-nav" id="site-nav">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+      {{/* Language switcher */}}
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+          <a href="{{ .Permalink }}" class="lang-switch" title="{{ .Language.Label }}">{{ .Language.Label }}</a>
+        {{ end }}
+      {{ else }}
+        {{/* Fallback: link to the other language's homepage */}}
+        {{ range site.Languages }}
+          {{ if ne .Lang $.Lang }}
+            <a href="/{{ if ne .Lang site.Language.Lang }}{{ .Lang }}/{{ end }}" class="lang-switch" title="{{ .Label }}">{{ .Label }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<script>
+  document.getElementById('nav-toggle').addEventListener('click', function() {
+    document.getElementById('site-nav').classList.toggle('open');
+    this.classList.toggle('open');
+  });
+</script>
