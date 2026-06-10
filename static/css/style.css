@@ -582,6 +582,24 @@ a.member-card:hover h3 { color: var(--color-brand); }
 
 .profile-content { padding-top: 16px; }
 
+/* Collapsible per-year publication lists on profile pages */
+.profile-content details {
+  margin: 0 0 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+.profile-content details[open] { padding-bottom: 4px; }
+.profile-content summary {
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  list-style-position: inside;
+}
+.profile-content summary:hover { color: var(--color-brand); }
+.profile-content summary strong { color: var(--color-text); font-size: 1.02rem; }
+.profile-content details ul { margin-top: 10px; }
+
 @media (max-width: 600px) {
   .profile-header { flex-direction: column; text-align: center; gap: 20px; }
   .profile-sub { justify-content: center; }
