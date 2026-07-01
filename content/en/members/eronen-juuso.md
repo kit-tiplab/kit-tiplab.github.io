@@ -2,7 +2,7 @@
 title: "Juuso Eronen"
 role: "Associate Professor"
 type: "members"
-photo: ""
+photo: "eronen-juuso.jpg"
 ---
 
 ## About Me
