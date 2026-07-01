@@ -2,7 +2,7 @@
 title: "エロネン ユーソ"
 role: "准教授"
 type: "members"
-photo: ""
+photo: "eronen-juuso.jpg"
 ---
 
 ## 自己紹介
