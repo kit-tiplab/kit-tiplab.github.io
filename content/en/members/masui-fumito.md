@@ -2,7 +2,7 @@
 title: "Fumito Masui"
 role: "Professor / Director, Winter Sports Science Research Center"
 type: "members"
-photo: ""
+photo: "masui-fumito.jpg"
 ---
 
 ## About Me
