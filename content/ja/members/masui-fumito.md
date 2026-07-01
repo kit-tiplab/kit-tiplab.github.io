@@ -2,7 +2,7 @@
 title: "桝井 文人"
 role: "教授・冬季スポーツ科学研究推進センター長"
 type: "members"
-photo: ""
+photo: "masui-fumito.jpg"
 ---
 
 ## 自己紹介
