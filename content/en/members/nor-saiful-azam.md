@@ -9,7 +9,7 @@ note: "Autumn enrollment"
 
 ## About Me
 
-(Write a short introduction here — where you are from, what you do in the lab, anything you like.)
+😆 (Write a short introduction here — where you are from, what you do in the lab, anything you like.)
 
 ## Research Interests
 
