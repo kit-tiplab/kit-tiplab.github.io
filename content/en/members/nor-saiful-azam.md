@@ -1,6 +1,6 @@
 ---
 title: "Nor Saiful Azam bin Nor Azami"
-role: "2nd-year doctoral student"
+role: "3rd-year doctoral student"
 type: "members"
 photo: ""
 advisor: "Prof. Ptaszynski"
@@ -32,7 +32,7 @@ Publication:
 
 Conferences:
 - Nor Saiful Azam Bin Nor Azmi, Michal Ptaszynski, Juuso Eronen, Karol Nowakowski and Fumito Masui. Token and Part-of-Speech Fusion for Pretraining of Transformers with Application in Automatic Cyberbullying Detection. 10th Language & Technology Conference: Human Language Technologies as Challenge for Computer Science and Linguistics, The Fourth Workshop on Processing Emotion Decisions and Opinions (EDO 2023), pp. 201—205, April 21-23, Poznan, Poland.
-- Nor Saiful Azam Bin Nor Azmi (70%), Michal Ptaszynski, Fumito Masui. Seems Like Hate: An Explainable Comparison of Language Model, Vision Model and VLM on Hateful Memes. Report of the Research Group on Language Acquisition and Comprehension, Future University Hakodate, Hakodate, Hokkaido, Japan. 
+- Nor Saiful Azam Bin Nor Azmi, Michal Ptaszynski, Fumito Masui. Seems Like Hate: An Explainable Comparison of Language Model, Vision Model and VLM on Hateful Memes. Report of the Research Group on Language Acquisition and Comprehension, Future University Hakodate, Hakodate, Hokkaido, Japan. 
 
 ## Links
 
