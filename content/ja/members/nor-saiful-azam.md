@@ -2,7 +2,7 @@
 title: "Nor Saiful Azam bin Nor Azami"
 role: "博士3年"
 type: "members"
-photo: ""
+photo: "saiful-azam.jpg"
 advisor: "プタシンスキ教授"
 note: "秋入学"
 ---
