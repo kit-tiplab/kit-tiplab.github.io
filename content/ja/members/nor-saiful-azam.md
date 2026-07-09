@@ -38,6 +38,7 @@ note: "秋入学"
 - [Google スカラー](https://scholar.google.com/citations?user=FKObmgIAAAAJ&hl=en)
 - [ResearchGate](https://www.researchgate.net/profile/Nor-Saiful-Azam-Bin-Nor-Azmi?ev=hdr_xprf)
 - [GitHub](https://github.com/saiefulEZO)
+- [LinkedIn](www.linkedin.com/in/nor-saiful-azam-nor-azmi-a3671b28b)
 
 ## 趣味・ひとこと
 
