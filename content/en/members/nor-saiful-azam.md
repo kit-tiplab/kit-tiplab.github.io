@@ -2,7 +2,7 @@
 title: "Nor Saiful Azam bin Nor Azami"
 role: "3rd-year doctoral student"
 type: "members"
-photo: ""
+photo: "saiful-azam.jpg"
 advisor: "Prof. Ptaszynski"
 note: "Autumn enrollment"
 ---
