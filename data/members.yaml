@@ -102,9 +102,9 @@ doctoral:
     photo: ""
     active: true
 
-  - slug: "overacker-lloyd"
-    name_ja: "Lloyd Nicholas Overacker"
-    name_en: "Lloyd Nicholas Overacker"
+  - slug: "overacker-nicholas"
+    name_ja: "Nicholas Overacker"
+    name_en: "Nicholas Overacker"
     year: "D1"
     advisor_ja: "プタシンスキ教授"
     advisor_en: "Prof. Ptaszynski"
