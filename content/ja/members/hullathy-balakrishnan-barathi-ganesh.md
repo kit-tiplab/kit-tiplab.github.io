@@ -2,7 +2,7 @@
 title: "Barathi Ganesh Hullathy Balakrishnan"
 role: "博士1年"
 type: "members"
-photo: ""
+photo: "hullathy-balakrishnan-barathi-ganesh.jpg"
 advisor: "プタシンスキ教授"
 note: "秋入学"
 ---
