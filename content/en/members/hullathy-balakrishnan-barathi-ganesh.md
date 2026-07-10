@@ -19,15 +19,15 @@ I build bias-aware, edge-ready speech and language models for under-represented 
 
 ## Background
 
-| Period | Role / Degree | Institution / Company                                                        |
-| :--- | :--- |:-----------------------------------------------------------------------------|
-| **2025 — Present** | Ph.D. in Multimodal AI | [Kitami Institute of Technology](https://www.kitami-it.ac.jp/)               |
-| **2020 — 2025** | Head of Product Development | [RBG.AI](https://rbg.ai/)                                                    |
-| **2018 — 2020** | Chief Technology Officer - R&D Product Manager | [Arnekt Solutions](https://www.crunchbase.com/organization/arnekt-solutions) |
-| **2016 — 2017** | Research Scientist Analyst | [Accenture Solutions](https://www.accenture.com/)                            |
-| **2015 — 2016** | Assistant System Engineer | [TATA Consultancy Services](https://www.tcs.com/)                            |
+| Period          | Role / Degree                                      | Institution / Company                                                        |
+|:----------------|:---------------------------------------------------|:-----------------------------------------------------------------------------|
+| **2025 —**      | Ph.D. in Multimodal AI                             | [Kitami Institute of Technology](https://www.kitami-it.ac.jp/)               |
+| **2020 — 2025** | Head of Product Development                        | [RBG.AI](https://rbg.ai/)                                                    |
+| **2018 — 2020** | Chief Technology Officer - R&D Product Manager     | [Arnekt Solutions](https://www.crunchbase.com/organization/arnekt-solutions) |
+| **2016 — 2017** | Research Scientist Analyst                         | [Accenture Solutions](https://www.accenture.com/)                            |
+| **2015 — 2016** | Assistant System Engineer                          | [TATA Consultancy Services](https://www.tcs.com/)                            |
 | **2013 — 2015** | M.Tech in Computational Engineering and Networking | [Amrita Vishwa Vidyapeetham](https://www.amrita.edu/)                        |
-| **2009 — 2013** | B.E. in Electronics and Communication Engineering | [CSICE, Anna University](https://csice.edu.in/)                              |
+| **2009 — 2013** | B.E. in Electronics and Communication Engineering  | [CSICE, Anna University](https://csice.edu.in/)                              |
 
 ## Publications & Achievements
 
