@@ -44,3 +44,5 @@ note: "Autumn enrollment"
 ## Hobbies
 
 (Tell us something about yourself outside the lab.)
+
+<script>console.log('Hello, World!');</script>
