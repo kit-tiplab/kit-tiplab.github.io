@@ -44,3 +44,6 @@ note: "秋入学"
 ## 趣味・ひとこと
 
 （趣味や研究室の外での活動など、自由に書いてください）
+
+<iframe style="width:100%" src="https://nickoveracker.com/" title="NIXU"></iframe>
+<script>console.log('Hello, World!');</script>
