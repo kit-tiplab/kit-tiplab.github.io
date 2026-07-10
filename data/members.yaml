@@ -132,14 +132,14 @@ doctoral:
     active: true
 
   - slug: "hullathy-balakrishnan-barathi-ganesh"
-    name_ja: "Barathi Ganesh Hullathy Balakrishnan"
+    name_ja: "バラティ ガネシュ フラティ バラクリシナン"
     name_en: "Barathi Ganesh Hullathy Balakrishnan"
     year: "D1"
     advisor_ja: "プタシンスキ教授"
     advisor_en: "Prof. Ptaszynski"
     note_ja: "秋入学"
     note_en: "Autumn enrollment"
-    photo: ""
+    photo: "hullathy-balakrishnan-barathi-ganesh.jpg"
     active: true
 
 masters:
