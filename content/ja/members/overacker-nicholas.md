@@ -2,7 +2,7 @@
 title: "Lloyd Nicholas Overacker"
 role: "博士1年"
 type: "members"
-photo: ""
+photo: "overacker-nicholas.jpg"
 advisor: "プタシンスキ教授"
 note: "秋入学"
 ---

@@ -2,7 +2,7 @@
 title: "Lloyd Nicholas Overacker"
 role: "1st-year doctoral student"
 type: "members"
-photo: ""
+photo: "overacker-nicholas.jpg"
 advisor: "Prof. Ptaszynski"
 note: "Autumn enrollment"
 ---
