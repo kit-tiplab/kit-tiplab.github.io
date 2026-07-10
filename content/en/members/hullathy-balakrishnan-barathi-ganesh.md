@@ -2,7 +2,7 @@
 title: "Barathi Ganesh Hullathy Balakrishnan"
 role: "1st-year doctoral student"
 type: "members"
-photo: "hullathy-balakrishnan-barathi-ganesh"
+photo: "hullathy-balakrishnan-barathi-ganesh.jpg"
 advisor: "Prof. Ptaszynski"
 note: "Autumn enrollment"
 ---
