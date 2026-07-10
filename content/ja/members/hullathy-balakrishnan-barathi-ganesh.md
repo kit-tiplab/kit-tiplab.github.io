@@ -20,13 +20,13 @@ note: "秋入学"
 
 | 期間              | 役割 / 学位                                  | 機関 / 企業                                                                  |
 |:----------------|:-----------------------------------------|:-----------------------------------------------------------------------------|
-| **2025 —**      | 博士課程（マルチモーダルAI）                          | [北見工業大学](https://www.kitami-it.ac.jp/)                 |
-| **2020 — 2025** | 製品開発責任者（Head of Product Development）     | [RBG.AI](https://rbg.ai/)                           |
-| **2018 — 2020** | 最高技術責任者 (CTO)兼 R&Dプロダクトマネージャー            | [Arnekt Solutions](https://www.crunchbase.com/organization/arnekt-solutions) |
-| **2016 — 2017** | リサーチサイエンティスト・アナリスト                       | [アクセンチュア](https://www.accenture.com/)                 |
-| **2015 — 2016** | アシスタントシステムエンジニア                          | [タタ・コンサルタンシー・サービシズ](https://www.tcs.com/)          |
-| **2013 — 2015** | 工学修士（計算機工学およびネットワーキング）                   | [アムリタ・ヴィシュワ・ヴィドゥヤピータム](https://www.amrita.edu/)      |
-| **2009 — 2013** | 工学士（電子通信工学）                              | [アンナ大学 CSICE](https://csice.edu.in/)                   |
+| 2025 —      | 博士課程（マルチモーダルAI）                          | [北見工業大学](https://www.kitami-it.ac.jp/)                 |
+| 2020 — 2025| 製品開発責任者（Head of Product Development）     | [RBG.AI](https://rbg.ai/)                           |
+| 2018 — 2020 | 最高技術責任者 (CTO)兼 R&Dプロダクトマネージャー            | [Arnekt Solutions](https://www.crunchbase.com/organization/arnekt-solutions) |
+| 2016 — 2017 | リサーチサイエンティスト・アナリスト                       | [アクセンチュア](https://www.accenture.com/)                 |
+| 2015 — 2016| アシスタントシステムエンジニア                          | [タタ・コンサルタンシー・サービシズ](https://www.tcs.com/)          |
+| 2013 — 2015 | 工学修士（計算機工学およびネットワーキング）                   | [アムリタ・ヴィシュワ・ヴィドゥヤピータム](https://www.amrita.edu/)      |
+| 2009 — 2013 | 工学士（電子通信工学）                              | [アンナ大学 CSICE](https://csice.edu.in/)                   |
 
 
 ## 業績・発表論文
