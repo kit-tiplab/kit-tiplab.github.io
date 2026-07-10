@@ -103,14 +103,14 @@ doctoral:
     active: true
 
   - slug: "overacker-nicholas"
-    name_ja: "Nicholas Overacker"
+    name_ja: "オーバーラッカー・ニコラス"
     name_en: "Nicholas Overacker"
     year: "D1"
     advisor_ja: "プタシンスキ教授"
     advisor_en: "Prof. Ptaszynski"
     note_ja: "秋入学"
     note_en: "Autumn enrollment"
-    photo: ""
+    photo: "overacker-nicholas.jpg"
     active: true
 
   - slug: "mohd-razali-azhani"
