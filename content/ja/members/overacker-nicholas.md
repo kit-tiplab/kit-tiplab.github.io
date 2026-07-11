@@ -39,7 +39,27 @@ note: "秋入学"
 
 ## リンク
 
-- （Google Scholar / GitHub / ORCID / 個人サイト など）
+- Author Profiles
+    - [ORCID](https://orcid.org/0009-0004-7663-3813)
+    - [Google Scholar](https://scholar.google.com/citations?user=CyDfPlAAAAAJ)
+
+- NLP Demos
+    - [アイヌ語自動翻字](https://huggingface.co/spaces/TwentyNine/byt5-ain-kana-latin-converter)
+      - TODO: Add example code to run the model.
+    - [アイヌ語・日本語自動翻訳](https://huggingface.co/spaces/TwentyNine/ain-jpn-honyaku)
+
+- Public Repositories
+    - [GitHub](https://github.com/NickOveracker/)
+    - [HuggingFace](https://huggingface.co/spaces/TwentyNine/)
+
+- ウェブ開発
+    - [個人ホームページ](https://nickoveracker.com/) ([Source](https://github.com/NickOveracker/nickoveracker/))
+    - [「Stixu」：集積回路スティック図CAD](https://stixu.io/) ([Source](https://github.com/NickOveracker/StickDiagrammer/))
+    - [アイヌ語のツール](https://ainulang.com/)
+
+- 動画
+    - [アイヌ語](https://www.youtube.com/@TwentyNineJP)
+    - [コンピューター工学](https://www.youtube.com/@stixu_dot_io)
 
 ## 趣味・ひとこと
 

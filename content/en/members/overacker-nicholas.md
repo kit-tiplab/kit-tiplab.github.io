@@ -39,7 +39,27 @@ note: "Autumn enrollment"
 
 ## Links
 
-- (Google Scholar / GitHub / ORCID / personal website)
+- Author Profiles
+    - [ORCID](https://orcid.org/0009-0004-7663-3813)
+    - [Google Scholar](https://scholar.google.com/citations?user=CyDfPlAAAAAJ)
+
+- NLP Demos
+    - [Ainu Transliteration](https://huggingface.co/spaces/TwentyNine/byt5-ain-kana-latin-converter)
+      - TODO: Add example code to run the model.
+    - [Ainu-Japanese Translation](https://huggingface.co/spaces/TwentyNine/ain-jpn-honyaku)
+
+- Public Repositories
+    - [GitHub](https://github.com/NickOveracker/)
+    - [HuggingFace](https://huggingface.co/spaces/TwentyNine/)
+
+- Web Development
+    - [Personal Homepage](https://nickoveracker.com/) ([Source](https://github.com/NickOveracker/nickoveracker/))
+    - [Stixu VLSI Stick Diagrammer](https://stixu.io/) ([Source](https://github.com/NickOveracker/StickDiagrammer/))
+    - [Ainu Language Toolkit](https://ainulang.com/)
+
+- Video
+    - [Ainu Language](https://www.youtube.com/@TwentyNineJP)
+    - [Computer Engineering](https://www.youtube.com/@stixu_dot_io)
 
 ## Hobbies
 
