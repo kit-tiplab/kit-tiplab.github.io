@@ -1,5 +1,5 @@
 ---
-title: "Lloyd Nicholas Overacker"
+title: "オーバーラッカー　ニコラス"
 role: "博士1年"
 type: "members"
 photo: "overacker-nicholas.jpg"

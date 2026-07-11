@@ -1,5 +1,5 @@
 ---
-title: "Lloyd Nicholas Overacker"
+title: "Nicholas Overacker"
 role: "1st-year doctoral student"
 type: "members"
 photo: "overacker-nicholas.jpg"
