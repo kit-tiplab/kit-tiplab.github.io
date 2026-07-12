@@ -66,7 +66,7 @@ note: "Autumn enrollment"
 (Tell us something about yourself outside the lab.)
 
 <details id="nixu" style="width:100%">
-    <summary style="font-family: monospace, monospace">Hack The System</summary>
+    <summary style="font-family: monospace, monospace; cursor: pointer;">Hack The System</summary>
     <iframe id="nixu" style="width:100%" src="https://nickoveracker.com/" title="NIXU"></iframe>
 </details>
 

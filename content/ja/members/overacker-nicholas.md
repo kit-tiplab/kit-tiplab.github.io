@@ -66,7 +66,7 @@ note: "秋入学"
 （趣味や研究室の外での活動など、自由に書いてください）
 
 <details id="nixu" style="width:100%">
-    <summary style="font-family: monospace, monospace">システムをハックしよう</summary>
+    <summary style="font-family: monospace, monospace; cursor: pointer;">システムをハックしよう</summary>
     <iframe id="nixu" style="width:100%" src="https://nickoveracker.com/" title="NIXU"></iframe>
 </details>
 
