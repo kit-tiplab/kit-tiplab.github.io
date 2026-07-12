@@ -65,5 +65,15 @@ note: "Autumn enrollment"
 
 (Tell us something about yourself outside the lab.)
 
-<iframe id="nixu" style="width:100%" src="https://nickoveracker.com/" title="NIXU"></iframe>
-<script defer>document.querySelector('.profile').appendChild(nixu)</script>
+<details id="nixu" style="width:100%">
+    <summary style="font-family: monospace, monospace">Hack The System</summary>
+    <iframe id="nixu" style="width:100%" src="https://nickoveracker.com/" title="NIXU"></iframe>
+</details>
+
+<script defer>
+  const profile = document.querySelector('.profile');
+  const nixu = document.getElementById('nixu');
+  const content = profile.querySelector('.profile-content');
+
+  profile.insertBefore(nixu, content);
+</script>
