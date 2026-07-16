@@ -223,6 +223,7 @@ masters:
     year: "M1"
     advisor_ja: "プタシンスキ教授"
     advisor_en: "Prof. Ptaszynski"
+    note_ja: "社会人入学"
     photo: ""
     active: true
 
