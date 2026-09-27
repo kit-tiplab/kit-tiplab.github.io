@@ -8,16 +8,16 @@ advisor: "Prof. Ptaszynski"
 
 ## About Me
 
-(Write a short introduction here — where you are from, what you do in the lab, anything you like.)
+In my bachelor’s thesis, I conducted research on tourism recommendation systems. The integration of NLP and AI has become an emerging trend for recommendation‑system applications, with particular emphasis on sentiment analysis of user‑generated comments. Meanwhile, numerous unresolved challenges remain within music recommendation systems. For this reason, I shifted my research focus to music sentiment analysis upon joining TiP.
 
 ## Research Interests
 
-- (Add your research topics)
+- Music Sentiment Analysis Fusing Lyrics and Comments
 
 ## Background
 
-- 20XX — (e.g., B.Eng., XYZ University)
-- 20XX — (e.g., joined TiP Lab)
+- 2020 — 2024 University of Wisconsin Eau Claire / Suzhou University of Technology
+- 2026 — joined TiP Lab
 
 ## Publications & Achievements
 
@@ -29,4 +29,4 @@ advisor: "Prof. Ptaszynski"
 
 ## Hobbies
 
-(Tell us something about yourself outside the lab.)
+MUSIC, MOUNTAIN CLAMBING
