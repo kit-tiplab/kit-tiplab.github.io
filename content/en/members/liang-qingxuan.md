@@ -29,4 +29,4 @@ In my bachelor’s thesis, I conducted research on tourism recommendation system
 
 ## Hobbies
 
-MUSIC, MOUNTAIN CLAMBING
+MUSIC, GAME, ANIME, MOUNTAIN CLAMBING
