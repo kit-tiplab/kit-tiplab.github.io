@@ -2,7 +2,7 @@
 title: "劉 真真"
 role: "研究員"
 type: "members"
-photo: ""
+photo: "liu-zhenzhen.jpg"
 ---
 
 ## 自己紹介
@@ -56,6 +56,10 @@ photo: ""
 - 劉 真真, 桝井 文人, プタシンスキ ミハウ, “中文スパムレビュー検出のためのショッピングサイトレビュー分析”, *人工知能学会全国大会 (JSAI 2016)*, 2016年.
 
 </details>
+
+## リンク
+
+- [LinkedIn](https://www.linkedin.com/in/zhenzhen-liu-b52011265/)
 
 ## 連絡先
 
