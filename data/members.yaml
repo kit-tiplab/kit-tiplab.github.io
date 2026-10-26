@@ -40,7 +40,7 @@ faculty:
     affiliation_ja: "北見工業大学 工学部 情報デザイン・コミュニケーション工学コース"
     affiliation_en: "Faculty of Engineering, Information and Communication Systems, KIT"
     photo: "eronen-juuso.jpg"
-    scholar: ""
+    scholar: "https://scholar.google.com/citations?user=f-YrYyEAAAAJ&hl=en"
     active: true
 
 researchers:
